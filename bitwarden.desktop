@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Application
+# Exec=~/.apps/Bitwarden-2023.7.0-x86_64.AppImage
+# Slightly slower than just executing but handles name changes. 2023-07-22. 
+# Eben Pendleton
+Exec=sh -c '$(find ~/.apps/ -name 'Bitwarden-*.AppImage') ;$SHELL'
+Icon=~/.apps/Bitwarden.png
+Hidden=false
+Name[en_US]=Bitwarden
+Name=krita
+Comment[en_US]=Password Manager
+Comment=image creation/editing (KDE appimage)
+Categories=Productivity;
+Path=
+Terminal=false
+StartupNotify=false
